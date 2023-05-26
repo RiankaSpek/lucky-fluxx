@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Carbon emission</title>
+  <!-- Fetch header information -->
+  <div id="headContainer"></div>
+  <script src="/assets/js/head.js"></script>  
+</head>
+
+<body class="antialiased bg-body text-body font-body">
+  <div class="">
+    <!-- NavBar -->
+    <div id="navContainer"></div>
+    <script src="assets/js/navbar.js"></script>
+
+    <section class="relative pt-8 pb-32 bg-gray-800 overflow-hidden">
+      <div class="absolute bottom-0 inset-x-0 h-full bg-gradient-zospace-1"></div>
+      <div class="absolute bottom-0 inset-x-0 h-3/5 w-2full -ml-64 -mb-12 bg-gradient-zospace-2 transform -rotate-6">
+      </div>
+      <div class="relative container px-3 mx-auto">
+        <div class="max-w-3xl mx-auto text-center">
+          <span class="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">
+            Let's talk about emissions!</span>
+          <h2 class="my-10 text-5xl font-bold font-heading text-white">
+            Introduction
+          </h2>
+          <div class="max-w-md mx-auto">
+            <p class="mb-20 text-lg text-gray-200">
+              As the commercial space travel industry continues to expand, it is imperative to address its environmental
+              impact. A number of countries have implemented CO2-related regulations to monitor and mitigate the carbon
+              footprint of space travel. These regulations require starports in affected countries to provide
+              comprehensive data on various aspects of each flight to the respective government agencies. This data will
+              facilitate informed decision-making regarding the sustainability of space travel and encourage the
+              development of eco-friendly solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative bg-gray-800 overflow-hidden border-t-4 border-yellow-500">
+      <img class="block absolute z-10 top-0 left-0 w-2/6 h-full object-cover"
+        src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1100&amp;q=80"
+        alt="">
+      <img class="block absolute bottom-0 left-0 h-128 -mb-64 ml-64" src="assets/zospace-assets/lines/circle.svg"
+        alt="">
+      <div class="relative w-4/6 ml-auto pl-24 pr-4 pt-20">
+        <div class="mb-10">
+          <h2 class="text-7xl text-white font-bold font-heading">
+            Data Dashboard Requirements
+          </h2>
+          <span class="text-lg text-blue-500">
+            Starports must maintain a data dashboard, accessible by government agencies, <br>
+            which includes the following information for each flight:
+          </span>
+        </div>
+
+        <div class="max-w-4xl">
+          <div class="flex flex-wrap -m-2">
+            <div class="w-full md:w-1/2 p-2 pr-8">
+              <div class="py-10 mt-8 mb-8 px-8 bg-gray-700 rounded-xl">
+                <div class="flex flex-wrap -mx-1 w-full text-left">
+                  <div class="w-1/4 px-1">
+                    <span
+                      class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">1</span>
+                    <div class="mt-8 ml-6 inline-block w-px bg-gray-500"></div>
+                  </div>
+                  <div class="w-3/4 px-1">
+                    <div class="flex items-center">
+                      <h3 class="text-l text-white">
+                        CO2 footprint per customer: The total carbon emissions
+                        associated with each individual's journey, from departure to arrival.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-8 py-10 px-8 bg-gray-700 rounded-xl">
+                <div class="flex flex-wrap -mx-1 w-full text-left">
+                  <div class="w-1/4 px-1">
+                    <span
+                      class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">3</span>
+                    <div class="mt-8 ml-6 inline-block w-px bg-gray-500"></div>
+                  </div>
+                  <div class="w-3/4 px-1">
+                    <div class="flex items-center">
+                      <h3 class="text-l text-white">
+                        Departure and arrival times: Precise timestamps for when each flight departs and arrives,
+                        allowing for accurate monitoring of emissions over time.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-8 py-10 px-8 bg-gray-700 rounded-xl">
+                <div class="flex flex-wrap -mx-1 w-full text-left">
+                  <div class="w-1/4 px-1">
+                    <span
+                      class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">5</span>
+                    <div class="mt-8 ml-6 inline-block w-px bg-gray-500"></div>
+                  </div>
+                  <div class="w-3/4 px-1">
+                    <div class="flex items-center">
+                      <h3 class="text-l text-white">
+                        Flight frequency: The total number of flights departing and arriving at a starport, enabling a
+                        comprehensive evaluation of its overall carbon footprint.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-8 py-10 px-8 bg-gray-700 rounded-xl">
+                <div class="flex flex-wrap -mx-1 w-full text-left">
+                  <div class="w-1/4 px-1">
+                    <span
+                      class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">7</span>
+                    <div class="mt-8 ml-6 inline-block w-px bg-gray-500"></div>
+                  </div>
+                  <div class="w-3/4 px-1">
+                    <div class="flex items-center">
+                      <h3 class="text-l text-white">
+                        Average CO2 footprint per customer: An aggregated statistic that helps contextualize the
+                        environmental impact of space travel on an individual level.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="w-full md:w-1/2 p-2">
+              <div class="mb-8 py-10 px-8 bg-gray-700 rounded-xl">
+                <div class="flex flex-wrap -mx-1 w-full text-left">
+                  <div class="w-1/4 px-1">
+                    <span
+                      class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">2</span>
+                    <div class="mt-8 ml-6 inline-block w-px bg-gray-500"></div>
+                  </div>
+                  <div class="w-3/4 px-1">
+                    <div class="flex items-center">
+                      <h3 class="text-l text-white">
+                        Cargo load: The weight and nature of the cargo transported during each flight, which contributes
+                        to the overall CO2 emissions.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-8 py-10 px-8 bg-gray-700 rounded-xl">
+                <div class="flex flex-wrap -mx-1 w-full text-left">
+                  <div class="w-1/4 px-1">
+                    <span
+                      class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">4</span>
+                    <div class="mt-8 ml-6 inline-block w-px bg-gray-500"></div>
+                  </div>
+                  <div class="w-3/4 px-1">
+                    <div class="flex items-center">
+                      <h3 class="text-l text-white">
+                        Destination: The final destination of each flight, which helps determine the distance traveled
+                        and its associated environmental impact.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-8 py-10 px-8 bg-gray-700 rounded-xl">
+                <div class="flex flex-wrap -mx-1 w-full text-left">
+                  <div class="w-1/4 px-1">
+                    <span
+                      class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">6</span>
+                    <div class="mt-8 ml-6 inline-block w-px bg-gray-500"></div>
+                  </div>
+                  <div class="w-3/4 px-1">
+                    <div class="flex items-center">
+                      <h3 class="text-l text-white">
+                        Fuel consumption: The amount of fuel consumed during each flight, providing insights into the
+                        efficiency of the spacecraft and its potential for improvement. A fixed value per spacecraft
+                        type is permitted.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-8 py-10 px-8 bg-gray-700 rounded-xl">
+                <div class="flex flex-wrap -mx-1 w-full text-left">
+                  <div class="w-1/4 px-1">
+                    <span
+                      class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">8</span>
+                    <div class="mt-8 ml-6 inline-block w-px bg-gray-500"></div>
+                  </div>
+                  <div class="w-3/4 px-1">
+                    <div class="flex items-center">
+                      <h3 class="text-l text-white">
+                        Percentage of reusable spacecraft components: A measure of the sustainability of the spacecraft
+                        design, which can help identify opportunities for improvement and encourage innovation.
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative pt-16 pt-12 bg-gray-800 overflow-hidden border-t-4">
+      <img class="hidden lg:block absolute top-0 left-0 h-screen -ml-96" src="assets/zospace-assets/lines/circle.svg" alt="">
+      <img class="hidden lg:block absolute top-0 right-0 mt-40 -mr-64" src="assets/zospace-assets/lines/circle.svg" alt="">
+      <div class="relative container px-4 mx-auto">
+        <div>
+          <div class="flex flex-wrap">
+            <div class="w-1/2 p-5">
+              <div class="p-16 bg-gray-600 rounded-lg">
+                <p class="mb-8 text-2xl font-bold font-heading text-white">
+                  <span>CO2 Footprint Comparison and Transparency</span>
+                </p>
+                <p class="text-lg text-gray-200 leading-loose">
+                  In addition to providing comprehensive data to government agencies, it is also important for space
+                  travel companies to show customers the CO2 footprint associated with their journey. By displaying this
+                  information during the booking process, customers can make informed decisions about their travel
+                  choices and consider the environmental impact of their trip. Customers can also compare the CO2
+                  footprint of space travel to other modes of transportation, such as air travel or driving, and choose
+                  the option that aligns with their values.
+
+                  Transparency in CO2 emissions and a commitment to reducing environmental impact can also help space
+                  travel companies build trust with their customers. By demonstrating a dedication to sustainability,
+                  companies can attract environmentally conscious customers and set themselves apart in a competitive
+                  industry. Overall, showing the CO2 footprint during the booking process is an important step towards
+                  promoting transparency and encouraging responsible travel choices in the commercial space travel
+                  industry.
+                </p>
+              </div>
+            </div>
+            <div class="w-1/2 flex-col pt-5">
+              <div class="w-full pb-5">
+                <div class="p-16 bg-gray-600 rounded-lg">
+                  <p class="mb-8 text-2xl font-bold font-heading text-white">
+                    <span>Compliance and Reporting</span>
+                  </p>
+                  <p class="text-lg text-gray-200 leading-loose">
+                    To ensure compliance with these regulations, starports must regularly submit their data dashboard to
+                    the responsible government agencies. This data will be used to assess the environmental impact of
+                    commercial space travel and develop strategies for reducing its carbon footprint. Starports that
+                    fail to comply with these regulations may face penalties, including fines and potential suspension
+                    of their operating license.
+                  </p>
+                </div>
+              </div>
+              <div class="w-full">
+                <div class="p-16 mb-4 bg-gray-600 rounded-lg">
+                  <p class="mb-8 text-2xl font-bold font-heading text-white">
+                    <span>Conclusion</span>
+                  </p>
+                  <p class="text-lg text-gray-200 leading-loose">
+                    CO2-related regulations for commercial space travel serve as a vital tool for promoting
+                    environmental stewardship in this rapidly growing industry. By maintaining a comprehensive data
+                    dashboard, starports can contribute to global efforts to minimize the ecological impact of space
+                    exploration. These regulations encourage innovation and the development of sustainable practices,
+                    ensuring that future generations can continue to explore the cosmos responsibly. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footContainer"></div>
+    <script src="assets/js/footer.js"></script>
+  </div>
+</body>
+
+</html>

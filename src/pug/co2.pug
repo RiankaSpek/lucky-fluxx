@@ -1,0 +1,156 @@
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap")
+        link(rel="stylesheet", href="css/tailwind/tailwind.min.css")
+        link(rel="icon", type="image/png", sizes="32x32", href="shuffle-for-tailwind.png")
+        script(src="js/main.js")
+    body(class="antialiased bg-body text-body font-body")
+        div(class="")
+            section(class="py-8 px-4 lg:px-10 bg-gray-800")
+                nav(class="relative flex justify-between items-center")
+                    a(class="text-2xl text-white font-bold", href="#")
+                        img(class="h-7", src="zospace-assets/logos/zospace-logo.svg", alt="", width="auto")
+                    div(class="lg:hidden")
+                        button(class="p-2 navbar-burger")
+                            svg(class="w-10 h-3", width="39", height="13", viewbox="0 0 39 13", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                rect(width="39", height="2", rx="1", fill="#C4C4C4")
+                                rect(x="19", y="11", width="20", height="2", rx="1", fill="#C4C4C4")
+                    div(class="hidden lg:block absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2")
+                        ul(class="flex items-center text-white space-x-10")
+                            li
+                                a(class="text-white font-bold text-lg", href="#") Product
+                            span
+                                svg(width="5", height="5", viewbox="0 0 5 5", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    circle(cx="2.5", cy="2.5", r="2.5", fill="#726B6B")
+                            li
+                                a(class="text-white font-bold text-lg", href="#") Story
+                            span
+                                svg(width="5", height="5", viewbox="0 0 5 5", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    circle(cx="2.5", cy="2.5", r="2.5", fill="#726B6B")
+                            li
+                                a(class="text-white font-bold text-lg", href="#") Features
+                            span
+                                svg(width="5", height="5", viewbox="0 0 5 5", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    circle(cx="2.5", cy="2.5", r="2.5", fill="#726B6B")
+                            li
+                                a(class="text-white font-bold text-lg", href="#") Contact
+                    div(class="hidden lg:block")
+                        a(class="inline-block px-12 py-4 text-white font-bold border border-gray-200 hover:border-white rounded-full", href="#") Sign Up
+                div(class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50")
+                    div(class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80")
+                    nav(class="relative flex flex-col py-8 h-full w-full bg-white overflow-y-auto")
+                        div(class="flex items-center mb-16 pr-6")
+                            a(class="ml-10 text-2xl text-gray-800 font-bold", href="#")
+                                img(class="h-7", src="zospace-assets/logos/zospace-dark-logo.svg", alt="", width="auto")
+                        div
+                            ul
+                                li(class="mb-1 px-10")
+                                    a(class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl", href="#") Product
+                                li(class="mb-1 px-10")
+                                    a(class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl", href="#") Story
+                                li(class="mb-1 px-10")
+                                    a(class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl", href="#") Features
+                                li(class="mb-1 px-10")
+                                    a(class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl", href="#") Contact
+                        div(class="mt-auto px-10")
+                            div(class="pt-6")
+                                a(class="block mb-4 py-4 px-12 text-gray-800 text-center font-bold border border-gray-50 hover:border-gray-100 rounded-full", href="#") Sign in
+                                a(class="block py-4 px-12 text-white text-center font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200", href="#") Sign up
+                            p(class="mt-6 mb-4 text-lg text-center")
+                                span 2021 © Zospace. All rights reserved.
+            section(class="relative pb-20 2xl:py-40 bg-gray-800 overflow-hidden")
+                img(class="hidden lg:block absolute z-10 top-0 left-0 w-2/6 h-full object-cover", src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80", alt="")
+                img(class="hidden lg:block absolute bottom-0 left-0 h-128 -mb-64 ml-64", src="zospace-assets/lines/circle.svg", alt="")
+                div(class="relative w-full lg:w-4/6 ml-auto pl-4 lg:pl-24 pr-4 pt-20")
+                    div(class="mb-20")
+                        span(class="text-lg font-bold text-blue-500") Hey! Have any questions?
+                        h2(class="mt-8 text-7xl text-white font-bold font-heading") FAQ's
+                    div(class="max-w-4xl")
+                        div(class="flex flex-wrap -m-2")
+                            div(class="w-full md:w-1/2 p-2")
+                                div(class="mb-4 py-10 px-8 bg-gray-700 rounded-xl")
+                                    button(class="flex flex-wrap -mx-1 w-full text-left")
+                                        div(class="w-1/4 px-1")
+                                            span(class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full") 1
+                                            div(class="mt-8 ml-6 inline-block lg:h-20 w-px bg-gray-500")
+                                        div(class="w-3/4 px-1")
+                                            div(class="flex items-center")
+                                                h3(class="text-xl text-white font-bold") How should I develop my workflow over time?
+                                                span(class="pl-4")
+                                                    svg(class="w-4 h-4", width="18", height="10", viewbox="0 0 18 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                        path(d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z", fill="#1F40FF")
+                                            div(class="w-full mt-8 pr-4")
+                                                p(class="text-lg text-gray-300") The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                div(class="mb-4 py-10 px-8 bg-gray-700 rounded-xl")
+                                    button(class="flex flex-wrap items-center -mx-1 w-full text-left")
+                                        div(class="w-1/4 px-1")
+                                            span(class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full") 4
+                                            div(class="hidden mt-8 ml-6 h-20 w-px bg-gray-500")
+                                        div(class="w-3/4 px-1")
+                                            div(class="flex items-center")
+                                                h3(class="text-xl text-white font-bold") Are Zospace apps free?
+                                                span(class="pl-4")
+                                                    svg(class="w-4 h-4", width="18", height="10", viewbox="0 0 18 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                        path(d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z", fill="#1F40FF")
+                                            div(class="hidden w-full mt-8 pr-4")
+                                                p(class="text-lg text-gray-300") The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                div(class="py-10 px-8 bg-gray-700 rounded-xl")
+                                    button(class="flex flex-wrap items-center -mx-1 w-full text-left")
+                                        div(class="w-1/4 px-1")
+                                            span(class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full") 6
+                                            div(class="hidden mt-8 ml-6 h-20 w-px bg-gray-500")
+                                        div(class="w-3/4 px-1")
+                                            div(class="flex items-center")
+                                                h3(class="text-xl text-white font-bold") How often should the app be updated?
+                                                span(class="pl-4")
+                                                    svg(class="w-4 h-4", width="18", height="10", viewbox="0 0 18 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                        path(d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z", fill="#1F40FF")
+                                            div(class="hidden w-full mt-8 pr-4")
+                                                p(class="text-lg text-gray-300") The point of using Lorem Ipsum is that it has a more-or-less normal.
+                            div(class="w-full md:w-1/2 p-2")
+                                div
+                                    div(class="mb-4 py-10 px-8 bg-gray-700 rounded-xl")
+                                        button(class="flex flex-wrap items-center -mx-1 w-full text-left")
+                                            div(class="w-1/4 px-1")
+                                                span(class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full") 2
+                                                div(class="hidden mt-8 ml-6 h-20 w-px bg-gray-500")
+                                            div(class="w-3/4 px-1")
+                                                div(class="flex items-center")
+                                                    h3(class="text-xl text-white font-bold") Can I pay by card?
+                                                    span(class="pl-4")
+                                                        svg(class="w-4 h-4", width="18", height="10", viewbox="0 0 18 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                            path(d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z", fill="#1F40FF")
+                                                div(class="hidden w-full mt-8 pr-4")
+                                                    p(class="text-lg text-gray-300") The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    div(class="mb-4 py-10 px-8 bg-gray-700 rounded-xl")
+                                        button(class="flex flex-wrap items-center -mx-1 w-full text-left")
+                                            div(class="w-1/4 px-1")
+                                                span(class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full") 3
+                                                div(class="hidden mt-8 ml-6 h-20 w-px bg-gray-500")
+                                            div(class="w-3/4 px-1")
+                                                div(class="flex items-center")
+                                                    h3(class="text-xl text-white font-bold") How often should the app be updated?
+                                                    span(class="pl-4")
+                                                        svg(class="w-4 h-4", width="18", height="10", viewbox="0 0 18 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                            path(d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z", fill="#1F40FF")
+                                                div(class="hidden w-full mt-8 pr-4")
+                                                    p(class="text-lg text-gray-300") The point of using Lorem Ipsum is that it has a more-or-less normal.
+                                    div(class="py-10 px-8 bg-gray-700 rounded-xl")
+                                        button(class="flex flex-wrap -mx-1 w-full text-left")
+                                            div(class="w-1/4 px-1")
+                                                span(class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full") 5
+                                                div(class="hidden mt-8 ml-6 h-20 w-px bg-gray-500")
+                                            div(class="w-3/4 px-1")
+                                                div(class="flex items-center")
+                                                    h3(class="text-xl text-white font-bold") Are Zospace apps free?
+                                                    span(class="pl-4")
+                                                        svg(class="w-4 h-4", width="18", height="10", viewbox="0 0 18 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                            path(d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z", fill="#1F40FF")
+                                                div(class="hidden w-full mt-8 pr-4")
+                                                    p(class="text-lg text-gray-300") The point of using Lorem Ipsum is that it has a more-or-less normal.
+                        div(class="mt-12 text-right")
+                            a(class="inline-block py-4 px-12 border border-gray-500 hover:border-gray-400 text-white font-bold rounded-full", href="#") Show more

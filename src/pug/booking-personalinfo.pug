@@ -1,0 +1,84 @@
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap")
+        link(rel="stylesheet", href="css/tailwind/tailwind.min.css")
+        link(rel="icon", type="image/png", sizes="32x32", href="shuffle-for-tailwind.png")
+        script(src="js/main.js")
+    body(class="antialiased bg-body text-body font-body")
+        div(class="")
+            section(class="py-8 px-4 lg:px-10 bg-gray-800")
+                nav(class="relative flex justify-between items-center")
+                    a(class="text-2xl text-white font-bold", href="#")
+                        img(class="h-7", src="zospace-assets/logos/zospace-logo.svg", alt="", width="auto")
+                    button(class="p-2 navbar-burger")
+                        svg(class="w-10 h-3", width="39", height="13", viewbox="0 0 39 13", fill="none", xmlns="http://www.w3.org/2000/svg")
+                            rect(width="39", height="2", rx="1", fill="#C4C4C4")
+                            rect(x="19", y="11", width="20", height="2", rx="1", fill="#C4C4C4")
+                div(class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50")
+                    div(class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80")
+                    nav(class="relative flex flex-col py-8 h-full w-full bg-white overflow-y-auto")
+                        div(class="flex items-center mb-16 pr-6")
+                            a(class="ml-10 text-2xl text-gray-800 font-bold", href="#")
+                                img(class="h-7", src="zospace-assets/logos/zospace-dark-logo.svg", alt="", width="auto")
+                        div
+                            ul
+                                li(class="mb-1 px-10")
+                                    a(class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl", href="#") Product
+                                li(class="mb-1 px-10")
+                                    a(class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl", href="#") Story
+                                li(class="mb-1 px-10")
+                                    a(class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl", href="#") Features
+                                li(class="mb-1 px-10")
+                                    a(class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl", href="#") Contact
+                        div(class="mt-auto px-10")
+                            div(class="pt-6")
+                                a(class="block mb-4 py-4 px-12 text-gray-800 text-center font-bold border border-gray-50 hover:border-gray-100 rounded-full", href="#") Sign in
+                                a(class="block py-4 px-12 text-white text-center font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200", href="#") Sign up
+                            p(class="mt-6 mb-4 text-lg text-center")
+                                span 2021 © Zospace. All rights reserved.
+            section(class="relative py-20 2xl:py-40 overflow-hidden")
+                div(class="absolute top-0 left-0 lg:bottom-0 h-full w-full lg:w-10/12 bg-gray-800 lg:overflow-hidden")
+                    img(class="hidden lg:block mt-64 ml-112", src="zospace-assets/lines/circle.svg", alt="")
+                img(class="hidden lg:block absolute h-128 bottom-0 right-0 z-10", src="zospace-assets/images/men-stars.png", alt="")
+                img(class="hidden lg:block absolute w-96 bottom-0 right-0 mr-64 mb-24", src="zospace-assets/lines/purple-line.svg", alt="")
+                div(class="relative container px-4 lg:py-20 mx-auto")
+                    span(class="text-lg text-blue-400 font-bold") Do you want to start?
+                    h2(class="mt-8 mb-16 text-5xl font-bold font-heading text-white") Register Account!
+                    form(action="#")
+                        div(class="max-w-2xl flex flex-wrap -mx-4 mb-3")
+                            div(class="w-full md:w-1/2 px-4")
+                                div(class="flex items-center pl-6 mb-3 bg-white rounded-full")
+                                    span(class="inline-block pr-3 border-r border-gray-50")                     
+                                    |                   
+                                    input(class="w-full pr-6 pl-4 py-4 font-bold bg-transparent placeholder-gray-900 rounded-r-full", type="text", placeholder="Name")
+                            div(class="w-full md:w-1/2 px-4")
+                                div(class="flex items-center pl-6 bg-white rounded-full")
+                                    input(class="w-full pr-6 pl-4 py-4 bg-transparent font-bold placeholder-gray-900 rounded-r-full focus:outline-none", type="email", placeholder="example@shuffle.dev")
+                        div(class="max-w-2xl flex flex-wrap -mx-4 mb-12")
+                            div(class="w-full md:w-1/2 px-4")
+                                div(class="flex items-center pl-6 mb-3 bg-white rounded-full")
+                                    span(class="inline-block pr-3 border-r border-gray-50")                     
+                                    |                   
+                                    input(class="w-full pr-6 pl-4 py-4 font-bold bg-transparent placeholder-gray-900 rounded-r-full focus:outline-none", type="password", placeholder="Password")
+                            div(class="w-full md:w-1/2 px-4")
+                                div(class="flex items-center pl-6 bg-white rounded-full")
+                                    span(class="inline-block pr-3 border-r border-gray-50")                     
+                                    |                   
+                                    input(class="w-full pr-6 pl-4 py-4 bg-transparent font-bold placeholder-gray-900 rounded-r-full focus:outline-none", type="password", placeholder="Repeat password")
+                        div(class="inline-flex mb-12 lg:mb-20")
+                            input(class="mr-4", type="checkbox")
+                            p(class="-mt-1 text-sm text-gray-200")
+                                | By singning up, you agree to our 
+                                a(class="text-gray-100 hover:text-white", href="#") Terms, Data Policy
+                                | and 
+                                a(class="text-gray-100 hover:text-white", href="#") Cookies.
+                        button(class="block w-full lg:w-auto py-4 px-12 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-full transition duration-200") Check availability
+            section(class="py-20 2xl:py-40 bg-gray-800")
+                p(class="text-center text-lg text-white pt-12 px-4 border-t border-gray-500")
+                    span © 2021 Shuffle.
+                    |           
+                    span(class="text-gray-300") All rights reserved.
